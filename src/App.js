@@ -7,21 +7,23 @@ import AddEnquiry from './AddEnquiry';
 import EnquiryList from './EnquiryList';
 import ResetPassword from './ResetPassword';
 
+export let userDetails = [
+  {
+    username: 'justin',
+    password: 'Justin8',
+  },
+  {
+    username: 'vini',
+    password: 'vini7',
+  },
+  {
+    username: 'jude',
+    password: 'jude5',
+  },
+];
+
+
 export default function App() {
-  let userDetails = [
-    {
-      username: 'justin',
-      password: 'Justin8',
-    },
-    {
-      username: 'vini',
-      password: 'vini7',
-    },
-    {
-      username: 'jude',
-      password: 'jude5',
-    },
-  ];
 
   let [isLogin, setIsLogin] = useState(false);
 
