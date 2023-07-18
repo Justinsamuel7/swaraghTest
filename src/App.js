@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './style.css';
 import { Routes, Route, useNavigate, Link } from 'react-router-dom';
 import HomePage from './HomePage.js';
+import Profile from './Profile';
+import AddEnquiry from './AddEnquiry';
+import EnquiryList from './EnquiryList';
+import ResetPassword from './ResetPassword';
 
 export default function App() {
   let userDetails = [
@@ -69,10 +73,10 @@ export default function App() {
       <>
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
-          <Route path="/Profile" element={<HomePage />}></Route>
-          <Route path="/ResetPassword" element={<HomePage />}></Route>
-          <Route path="/AddEnquiry" element={<HomePage />}></Route>
-          <Route path="/EnquiryList" element={<HomePage />}></Route>
+          <Route path="/Profile" element={<Profile />}></Route>
+          <Route path="/ResetPassword" element={<ResetPassword />}></Route>
+          <Route path="/AddEnquiry" element={<AddEnquiry />}></Route>
+          <Route path="/EnquiryList" element={<EnquiryList />}></Route>
           <Route path="/LoginForm" element={<App />}></Route>
         </Routes>
       </>
