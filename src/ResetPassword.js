@@ -7,6 +7,13 @@ export default function ResetPassword() {
   return (
     <>
       <h1>Reset Password</h1>
+
+      
+
+      <br/>
+      <br/>
+      <Link to="/">Back to Home</Link>
+
     </>
   );
 }

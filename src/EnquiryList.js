@@ -7,6 +7,14 @@ export default function EnquiryList() {
   return (
     <>
       <h1>Enquiry List</h1>
+
+
+      
+
+      <br/>
+      <br/>
+      <Link to="/">Back to Home</Link>
+
     </>
   );
 }

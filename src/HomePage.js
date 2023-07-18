@@ -10,7 +10,7 @@ export default function HomePage() {
 
   return (
     <>
-      <h1>this is home</h1>
+      <h1>Home</h1>
       <div>
         <Link to="/Profile">Profile</Link>
         <br />
